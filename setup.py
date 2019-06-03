@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 from setuptools import find_packages, setup
 
-from python_stub.version import __version__
+from maven_miner.version import __version__
 
 setup(
-    name='python-stub',
+    name='maven-miner',
     version=__version__,
     author='amon',
     author_email='amon@nandynarwhals.org',
-    description='This provides a python library template.',
+    description='Analytics tool to reverse engineer huge multi-component Maven projects.',
     packages=find_packages(),
     setup_requires=[
         'pytest-runner',
@@ -25,5 +25,5 @@ setup(
         'console_scripts': [
         ],
     },
-    url='https://github.com/nnamon/python-stub'
+    url='https://github.com/nnamon/maven-miner'
 )
